@@ -1,15 +1,51 @@
-# What is this?
+# 🖥️ FEJS_Pre_Proyecto
 
-The github.dev web-based editor is a lightweight editing experience that runs entirely in your browser. You can navigate files and source code repositories from GitHub, and make and commit code changes.
+**Pre_Proyecto curso Front End JavaScript**
 
-There are two ways to go directly to a VS Code environment in your browser and start coding:
+---
 
-* Press the . key on any repository or pull request.
-* Swap `.com` with `.dev` in the URL. For example, this repo https://github.com/github/dev becomes http://github.dev/github/dev
+## 📖 Descripción:
+Este proyecto es una página web básica desarrollada como parte de un curso de Front-End. La página está estructurada con HTML semántico y utiliza las etiquetas `<header>`, `<main>`, `<nav>` y `<footer>` para organizar el contenido. El objetivo es aprender a crear la estructura básica de una página web y prepararla para futuras mejoras con CSS y JavaScript.
 
-Preview the gif below to get a quick demo of github.dev in action.
+---
 
-![github dev](https://user-images.githubusercontent.com/856858/130119109-4769f2d7-9027-4bc4-a38c-10f297499e8f.gif)
+## 🎯 Consignas del Proyecto:
 
-# Why?
-It’s a quick way to edit and navigate code. It's especially useful if you want to edit multiple files at a time or take advantage of all the powerful code editing features of Visual Studio Code when making a quick change. For more information, see our [documentation](https://github.co/codespaces-editor-help).
+1. ### 📝 Estructura Básica de HTML
+   - **Estructura semántica**: El HTML debe estar dividido en las etiquetas semánticas principales: `header`, `nav`, `main`, `section`, `footer`.
+
+2. ### 📬 Formulario de Contacto
+   - **Formulario funcional**: Crear un formulario de contacto con campos para:
+     - **Nombre**
+     - **Correo Electrónico**
+     - **Mensaje**
+   - Utilizar `formspree` para manejar el envío de datos.
+
+3. ### 🎨 Estilos Básicos Aplicados con CSS
+   - **Archivo `styles.css`**: Incluir un archivo CSS externo con:
+     - **Estilos básicos**: aplicados a `header`, `footer` y lista de navegación.
+     - **Google Fonts**: correctamente implementadas.
+     - **Propiedades de background** aplicadas en alguna sección de la página (color, imagen, degradado, etc.).
+
+4. ### 📱 Diseño Responsivo con Flexbox y Grid
+   - **Sección "Productos"**: Organizada en `cards` de forma responsiva utilizando **Flexbox**.
+   - **Sección "Reseñas"**: Organizada utilizando **Grid**, con una distribución lógica y estética.
+   - **Sección "Contacto"**: Adaptada mediante **Media Queries** para diferentes tamaños de pantalla.
+
+5. ### 🌐 Contenido Multimedia y Navegación
+   - **Multimedia**: Integración de archivos multimedia (imágenes, video o iframe) correctamente en la página.
+   - **Navegación**: Implementación de una lista de navegación con enlaces que simulen una navegación interna (Inicio, Productos, Contacto, etc.).
+
+6. ### 🚀 Subida del Proyecto
+   - **Hosting**: Subir el proyecto a un hosting gratuito (como **Netlify** o **GitHub Pages**), con una URL funcional para visualizar el sitio.
+
+---
+
+## 📂 Estructura del Proyecto
+
+```plaintext
+FEJS_Pre_Proyecto/
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
